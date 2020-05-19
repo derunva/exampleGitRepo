@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+.cv {
+  height: 100%;
+  display: flex;
+}
+.cv--contacts {
+  flex: 0 1 300px;
+  flex-basis: 300px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  background: #555;
+  color: #fff;
+  padding: 15px;
+}
+.contacts-title {
+  padding: 10px 15px;
+  background: #333;
+  margin: 10px -15px;
+}
